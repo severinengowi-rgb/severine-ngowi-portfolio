@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Severine Ngowi Portfolio - Portfolio</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Sidebar Toggle Button -->
+<button class="menu-toggle" onclick="toggleSidebar()">☰</button>
+
+<!-- Sidebar -->
+<div class="sidebar" id="sidebar">
+    <div class="sidebar-logo">
+        <h2>Severine Ngowi</h2>
+        <p>+255672577726</p>
+        <p>sverineliberaty@gmail.com</p>
+    </div>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="skills.html">Skills</a>
+    <a href="services.html">Services</a>
+    <a href="experience.html">Experience</a>
+    <a href="contact.html">Contact Me</a>
+    <button id="darkModeToggle">Dark Mode</button>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="main-content">
+    <section class="center-box">
+        <h2>Portfolio</h2>
+        <div class="portfolio-items">
+            <div class="item" onclick="showImages('project1')">Project - Website Development</div>
+            <div class="item" onclick="showImages('project2')">Project - Database Management</div>
+            <div class="item" onclick="showImages('project3')">Project - IT Solutions</div>
+        </div>
+
+        <!-- Project Images -->
+        <div class="project-images" id="project1">
+            <h3>Website Development</h3>
+            <img src="images/project1.jpg" alt="Project 1">
+            <img src="images/project2.jpg" alt="Project 1">
+        </div>
+
+        <div class="project-images" id="project2">
+            <h3>Database Management</h3>
+            <img src="images/dbs1.jpg" alt="Project 2">
+            <img src="images/dbs2.jpg" alt="Project 2">
+        </div>
+
+        <div class="project-images" id="project3">
+            <h3>IT Solutions</h3>
+            <img src="images/it1.jpg" alt="Project 3">
+            <img src="images/IT Support Services(JPG).jpg" alt="Project 3">
+        </div>
+    </section>
+</div>
+
+<footer>
+<p>&copy; 2026 Severine Ngowi. All Rights Reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
